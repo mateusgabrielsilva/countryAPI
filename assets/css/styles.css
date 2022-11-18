@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #30F005, #F0D805);
+}
+
+.app {
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin: 2rem;
+    background-color: #222632b4;
+    opacity: 90%;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+.dadosText {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #f8f8f8;
+}
+
+.country-capital{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    color: #f8f8f8;
+}
+
+.country-capital span {
+    font-weight: 400;
+}
+
+.country-capital p {
+    font-weight: lighter;
+    margin-left: .5rem;
+}
+
+.flag img {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+}
